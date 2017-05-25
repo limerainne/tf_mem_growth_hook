@@ -49,5 +49,4 @@ class TFImport:
 def inject_hook():
     import builtins
     builtins.__import__ = TFImport()
-    print("NOTE import hook for TensorFlow allow_growth was installed!")
 
